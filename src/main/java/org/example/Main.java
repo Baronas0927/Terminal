@@ -30,28 +30,35 @@ public class Main {
     }
 
     private static void Bankas() {
-        String pav1 = "1. SEB";
-        String pav2 = "2. Swedbank";
-        String pav3 = "3. Luminor";
-        System.out.println("Pasirinkite norima banka:\n " + pav1 + "\n" + pav2 + "\n" + pav3 );
+        String seb = "1. SEB";
+        String swedbank = "2. Swedbank";
+        String luminor = "3. Luminor";
+        double sebSaskaitosLikutis = 720.30;
+        double swedbankSaskaitosLikutis = 620.50;
+        double luminorSaskaitosLikutis = 430.70;
+        try{
+        System.out.println("Pasirinkite norima banka:\n " + seb + "\n" + swedbank + "\n" + luminor);
         Scanner bank = new Scanner(System.in);
         int y = bank.nextInt();
         switch (y){
             case 1:
-                System.out.println(pav1);
+                System.out.println(seb);
                 break;
             case 2:
-                System.out.println(pav2);
+                System.out.println(swedbank);
                 break;
             case 3:
-                System.out.println(pav3);
+                System.out.println(luminor);
                 break;
+        }} catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
     private static void LTG(){
-        System.out.println("Pasirinkite norima paslauga");
-        String traukinioTipas;
+        System.out.println("Pasirinkite norima paslauga:");
+        String informacija;
+        boolean greitas;
         double bilietoKaina;
     }
 
