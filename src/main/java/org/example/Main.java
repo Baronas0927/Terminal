@@ -40,6 +40,8 @@ public class Main {
         String seb = "1. SEB";
         String swedbank = "2. Swedbank";
         String luminor = "3. Luminor";
+        String info = "1. Informacija";
+        String likutis = "2. Likutis";
         double sebSaskaitosLikutis = Math.round(Math.random()*100);
         double swedbankSaskaitosLikutis = Math.round(Math.random()*100);
         double luminorSaskaitosLikutis = Math.round(Math.random()*100);
@@ -50,12 +52,15 @@ public class Main {
                 switch (y){
                     case 1:
                         System.out.println(seb);
+                        System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
                         break;
                     case 2:
                         System.out.println(swedbank);
+                        System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
                         break;
                     case 3:
                         System.out.println(luminor);
+                        System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
                         break;
                     default:
                         System.in.read();
