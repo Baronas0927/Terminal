@@ -28,11 +28,8 @@ public class Main {
                 case 3:
                     exit(0);
             }
-
-
         } catch (Exception e) {
             System.out.println("Atsirado klaida: " + e);
-
         }
     }
 
@@ -53,6 +50,7 @@ public class Main {
                     case 1:
                         System.out.println(seb);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        bank.nextInt();
                         switch (y){
                             case 1:
                                 System.out.println("Pasirinkta informacijos paslauga");
@@ -66,6 +64,7 @@ public class Main {
                     case 2:
                         System.out.println(swedbank);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        bank.nextInt();
                         switch (y){
                             case 1:
                                 System.out.println("Pasirinkta informacijos paslauga");
@@ -79,6 +78,7 @@ public class Main {
                     case 3:
                         System.out.println(luminor);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        bank.nextInt();
                         switch (y){
                             case 1:
                                 System.out.println("Pasirinkta informacijos paslauga");
