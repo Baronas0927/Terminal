@@ -53,14 +53,41 @@ public class Main {
                     case 1:
                         System.out.println(seb);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        switch (y){
+                            case 1:
+                                System.out.println("Pasirinkta informacijos paslauga");
+                                break;
+                            case 2:
+                                System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
+                                        "SEB saskaitos likutis yra:" + sebSaskaitosLikutis);
+                                break;
+                        }
                         break;
                     case 2:
                         System.out.println(swedbank);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        switch (y){
+                            case 1:
+                                System.out.println("Pasirinkta informacijos paslauga");
+                                break;
+                            case 2:
+                                System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
+                                        "Swedbank saskaitos likutis yra:" + swedbankSaskaitosLikutis);
+                                break;
+                        }
                         break;
                     case 3:
                         System.out.println(luminor);
                         System.out.println("Pasirinkite norima paslauga:\n" + info + "\n" + likutis);
+                        switch (y){
+                            case 1:
+                                System.out.println("Pasirinkta informacijos paslauga");
+                                break;
+                            case 2:
+                                System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
+                                        "Luminor saskaitos likutis yra:" + luminorSaskaitosLikutis);
+                                break;
+                        }
                         break;
                     default:
                         System.in.read();
