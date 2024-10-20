@@ -5,21 +5,19 @@ import java.util.Scanner;
 import static java.lang.System.exit;
 
 public class Main {
+    //reiksmes, pasiekiamos visoje programoje
     static String ltg =  "1. Lietuvos Gelezinkeliai";
     static String bank = "2. Bankas";
     static String exit = "3. Iseiti is programos";
     static String info = "1. Informacija";
     static String likutis = "2. Likutis";
+    static String blogasAts = "";
     public static void main(String[] args) {
-        //String blogas = "";
         System.out.println("Sveiki atvykę į Lietuvos Geležinkelių ir banko programą");
         System.out.println("Pasirinkite norimą programą: \n" + ltg + "\n" + bank + "\n" + exit);
         try{
             Scanner sc = new Scanner(System.in);
             int i = sc.nextInt();
-//            if (i == Integer.parseInt(blogas)){
-//                System.out.println("Įveskite skaičių");
-//            }
             switch (i) {
                 case 1:
                     LTG();
@@ -98,7 +96,6 @@ public class Main {
 
     private static void LTG(){
         System.out.println("Pasirinkite norima paslauga:");
-        String informacija;
         boolean greitas;
         double bilietoKaina;
     }
