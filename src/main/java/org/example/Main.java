@@ -5,10 +5,12 @@ import java.util.Scanner;
 import static java.lang.System.exit;
 
 public class Main {
+    static String ltg =  "1. Lietuvos Gelezinkeliai";
+    static String bank = "2. Bankas";
+    static String exit = "3. Iseiti is programos";
+    static String info = "1. Informacija";
+    static String likutis = "2. Likutis";
     public static void main(String[] args) {
-        String ltg = "1. Lietuvos Gelezinkeliai";
-        String bank = "2. Bankas";
-        String exit = "3. Iseiti is programos";
         //String blogas = "";
         System.out.println("Sveiki atvykę į Lietuvos Geležinkelių ir banko programą");
         System.out.println("Pasirinkite norimą programą: \n" + ltg + "\n" + bank + "\n" + exit);
@@ -37,8 +39,6 @@ public class Main {
         String seb = "1. SEB";
         String swedbank = "2. Swedbank";
         String luminor = "3. Luminor";
-        String info = "1. Informacija";
-        String likutis = "2. Likutis";
         double sebSaskaitosLikutis = Math.round(Math.random()*100);
         double swedbankSaskaitosLikutis = Math.round(Math.random()*100);
         double luminorSaskaitosLikutis = Math.round(Math.random()*100);
