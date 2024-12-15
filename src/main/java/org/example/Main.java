@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 import static java.lang.System.exit;
+import static java.lang.System.setOut;
 
 public class Main {
     //reiksmes, pasiekiamos visoje programoje
@@ -56,7 +57,7 @@ public class Main {
                                 break;
                             case 2:
                                 System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
-                                        "SEB saskaitos likutis yra:" + sebSaskaitosLikutis);
+                                        "SEB saskaitos likutis yra:" + sebSaskaitosLikutis + Euro);
                                 break;
                         }
                         break;
@@ -70,7 +71,7 @@ public class Main {
                                 break;
                             case 2:
                                 System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
-                                        "Swedbank saskaitos likutis yra:" + swedbankSaskaitosLikutis);
+                                        "Swedbank saskaitos likutis yra:" + swedbankSaskaitosLikutis + Euro);
                                 break;
                         }
                         break;
@@ -84,7 +85,7 @@ public class Main {
                                 break;
                             case 2:
                                 System.out.println("Pasirinkta likučio atvaizdavimo paslauga. \n Dabartinis " +
-                                        "Luminor saskaitos likutis yra:" + luminorSaskaitosLikutis);
+                                        "Luminor saskaitos likutis yra:" + luminorSaskaitosLikutis + Euro);
                                 break;
                         }
                         break;
@@ -96,9 +97,13 @@ public class Main {
     }
 
     private static void LTG(){
-        System.out.println("Pasirinkite norima paslauga:");
         boolean greitas;
         double bilietoKaina;
+        System.out.println("Pasirinkite norima paslauga:");
+        System.out.println("1. Turimas bilietu kiekis");
+        System.out.println("2. Pirkti bilietus");
+        Scanner ltg = new Scanner(System.in);
+
     }
 
 }
