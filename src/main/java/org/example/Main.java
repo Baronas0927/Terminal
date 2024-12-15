@@ -12,6 +12,7 @@ public class Main {
     static String info = "1. Informacija";
     static String likutis = "2. Likutis";
     static String blogasAts = "";
+    static String Euro = "€";
     public static void main(String[] args) {
         System.out.println("Sveiki atvykę į Lietuvos Geležinkelių ir banko programą");
         System.out.println("Pasirinkite norimą programą: \n" + ltg + "\n" + bank + "\n" + exit);
